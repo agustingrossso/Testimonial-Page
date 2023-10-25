@@ -1,0 +1,154 @@
+
+
+body{
+    background-color: #FAFAF9;
+    
+}
+
+.contenedorGlobal{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-620px,30px);
+    padding: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+}
+
+.grid div{
+    /* border: 1px solid salmon; */
+}
+/* ESTRELLA  */
+.stars{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 5px;
+    background-color: #F5C044;
+    margin-bottom: -35px;
+}
+
+/* DIV TITULO  */
+.grid .titulo{
+    grid-column: 1 / 6;
+}
+
+.grid .titulo .headline{
+    font-size: 2.25rem;
+    font-family: sora;
+    font-weight: bold;
+}
+.grid .titulo .subTitulo{
+    font-size: 20px;
+    font-family: sora;
+    font-weight: lighter;
+}
+
+/* DIV CHECKPOINTS */
+.grid .check{
+    grid-column: 1 / 6;
+
+}
+
+.check{
+    margin-top: 55px;
+}
+
+.check p{
+    font-family: Sora;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.check .alineado img{
+    float: left;
+    margin-right: 5px;
+    
+}
+.check .alineadoDos img{
+    float: left;
+    margin-right: 5px;
+    
+}
+.check .alineadoTres img{
+    float: left;
+    margin-right: 5px;
+    
+}
+
+/* .check p{
+    display: inline;
+    vertical-align: middle;
+} */
+
+
+.secondGrid{
+    grid-column: 7 / 12;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 32px;
+
+}
+
+/* DIV GOOGLE */
+.grid .google{
+    grid-column: 4 / 9;
+    /* grid-row: 1 / 2; */
+    /* height: 145px; */
+    background-color: #FFFF;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.grid .google img{
+    width: 75px;
+    margin-right: 10px;
+}
+
+.grid .secondGrid svg{
+    width: 30px;
+    height: 30px;
+}
+
+.grid .google .tituloGoogle{
+    font-family: sora;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.grid .google .subTituloGoogle{
+    font-family: sora;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+/* DIVS META */
+.grid .meta{
+    grid-column: 1/ 6;
+    /* grid-row: 2 / 3; */
+    background-color: #FFFF;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.grid .meta img{
+    width: 75px;
+    margin-right: 10px;
+}
+
+.grid .meta .tituloMeta{
+    font-family: sora;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.grid .meta .subtituloMeta{
+    font-family: sora;
+    font-weight: lighter;
+    font-size: 1rem;
+}
